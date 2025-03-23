@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Scott Hoffmann",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -27,28 +27,28 @@ const config: QuartzConfig = {
         body: "Cabin",
         code: "Source Code Pro",
       },
-      colors: {
+      colors: { // Palette sourced from Steph Ango's Flexoki (https://stephango.com/flexoki)
         lightMode: {
-          light: "#FFFCF0",
-          lightgray: "#E6E4D9",
-          gray: "#F2F0E5",
-          darkgray: "#100F0F",
-          dark: "#100F0F",
-          secondary: "#4485BE",
-          tertiary: "#889A39",
-          highlight: "#DA702C",
-          textHighlight: "#D14D41",
+          light: "#FFFCF0", // paper - page background
+          lightgray: "#E6E4D9", // base-100 - borders
+          gray: "#F2F0E5", // base-50 - graph links, heavier borders
+          darkgray: "#100F0F", // black - body text
+          dark: "#6F6E69", // base-600 - header text and icons
+          secondary: "#4385BE", // blue-400 - link colour, current graph node
+          tertiary: "#205EA6", // blue-600 - hover states and visited graph nodes
+          highlight: "#3AA99F", // cyan-400 - internal link background, highlighted text, highlighted lines of code
+          textHighlight: "#24837B", // cyan-600 - markdown highlighted text background
         },
         darkMode: {
-          light: "#100F0F",
-          lightgray: "#B7B5AC",
-          gray: "#6F6E6A",
-          darkgray: "#FFFCF0",
-          dark: "#FFFCF0",
-          secondary: "#4485BE",
-          tertiary: "#889A39",
-          highlight: "#DA702C",
-          textHighlight: "#D14D41",
+          light: "#100F0F", // black - page background
+          lightgray: "#282726", // base-900 - borders
+          gray: "#403E3C", // base-800 - graph links, heavier borders
+          darkgray: "#CECDC3", // base-200 - body text
+          dark: "#CECDC3", // base-200 - header text and icons
+          secondary: "#4385BE", // blue-400 - link colour, current graph node
+          tertiary: "#205EA6", // blue-600 - hover states and visited graph nodes
+          highlight: "#3AA99F", // cyan-400 - internal link background, highlighted text, highlighted lines of code
+          textHighlight: "#24837B", // cyan-600 - markdown highlighted text background
         },
       },
     },
