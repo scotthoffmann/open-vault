@@ -32,12 +32,12 @@ const config: QuartzConfig = {
           light: "#FFFCF0", // paper - page background
           lightgray: "#E6E4D9", // base-100 - borders
           gray: "#F2F0E5", // base-50 - graph links, heavier borders
-          darkgray: "#100F0F", // black - body text
-          dark: "#6F6E69", // base-600 - header text and icons
-          secondary: "#4385BE", // blue-400 - link colour, current graph node
-          tertiary: "#205EA6", // blue-600 - hover states and visited graph nodes
-          highlight: "#3AA99F", // cyan-400 - internal link background, highlighted text, highlighted lines of code
-          textHighlight: "#24837B", // cyan-600 - markdown highlighted text background
+          darkgray: "#1C1B1A", // base-950 - body text
+          dark: "#100F0F", // black - header text and icons
+          secondary: "#879A39", // green-400 - link colour, current graph node
+          tertiary: "#66800B", // green-600 - hover states and visited graph nodes
+          highlight: "#E6E4D9", // base-100 - internal link background, highlighted text, highlighted lines of code
+          textHighlight: "#CECDC3", // base-200 - markdown highlighted text background
         },
         darkMode: {
           light: "#100F0F", // black - page background
@@ -45,10 +45,10 @@ const config: QuartzConfig = {
           gray: "#403E3C", // base-800 - graph links, heavier borders
           darkgray: "#CECDC3", // base-200 - body text
           dark: "#CECDC3", // base-200 - header text and icons
-          secondary: "#4385BE", // blue-400 - link colour, current graph node
-          tertiary: "#205EA6", // blue-600 - hover states and visited graph nodes
-          highlight: "#3AA99F", // cyan-400 - internal link background, highlighted text, highlighted lines of code
-          textHighlight: "#24837B", // cyan-600 - markdown highlighted text background
+          secondary: "#8B7EC8", // purple-400 - link colour, current graph node
+          tertiary: "#5E409D", // purple-600 - hover states and visited graph nodes
+          highlight: "#282726", // base-900 - internal link background, highlighted text, highlighted lines of code
+          textHighlight: "#403E3C", // base-800 - markdown highlighted text background
         },
       },
     },

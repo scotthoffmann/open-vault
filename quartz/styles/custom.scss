@@ -1,3 +1,77 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* 
+ * Custom Styling for Quartz
+ * --------------------------
+ */
+
+/*
+ * 1. HYPHENATION CONTROL
+ * Disable hyphenation site-wide for improved readability
+ */
+ html, body, p, div, span, h1, h2, h3, h4, h5, h6, li, a, article, section {
+    hyphens: none !important;
+    -webkit-hyphens: none !important;
+    -ms-hyphens: none !important;
+    -moz-hyphens: none !important;
+  }
+  
+  /* Target Quartz-specific content containers */
+  .content, .article, .post, .page, .resume {
+    hyphens: none !important;
+    -webkit-hyphens: none !important;
+    -ms-hyphens: none !important;
+    -moz-hyphens: none !important;
+  }
+  
+  /*
+   * 2. IMAGE STYLING
+   * Enhanced image appearance with hover effects
+   */
+  img {
+    /* Shape and border */
+    border-radius: 15px;
+    border: 1px solid #100F0F;
+    
+    /* Responsive behavior */
+    max-width: 100%;
+    height: auto;
+    
+    /* Layout and spacing */
+    margin: 1em 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    /* Animation settings */
+    transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), 
+                box-shadow 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    
+    /* Stacking context */
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Hover animation */
+  img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    z-index: 10; /* Ensures images appear above other elements when enlarged */
+  }
+  
+  /*
+   * 3. RESPONSIVE ADJUSTMENTS
+   * Disable hover effects on mobile/touch devices
+   */
+  @media (max-width: 768px) {
+    img:hover {
+      transform: none;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Optional: slightly adjust image styling for mobile */
+    img {
+      border-radius: 10px; /* Slightly smaller radius */
+      margin: 0.75em 0; /* Reduced vertical margins */
+    }
+  }
