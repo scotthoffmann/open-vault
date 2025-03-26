@@ -7,7 +7,7 @@ draft: "false"
 
 I pair human context with data to understand audience behaviors and build social strategies that connect communities. My focus is turning user feedback into meaningful improvements and creating support systems where people feel enabled to engage in meaningful conversation.
 
-Beyond my professional work, I've typically got my [camera in hand](https://instagram.com/p/C9EWczMMTVn)—if you're putting together an event, I'd love to be a fly on the wall. Drop a note and let me know what you're working on.
+Beyond the social sphere, I've typically got my [camera in hand](https://instagram.com/p/C9EWczMMTVn)—if you're putting together an event, I'd love to be a fly on the wall. Drop a note and let me know what you're working on.
 
 **I'm based in New York, NY. Get in touch: contact@scotthoffmann.com.**
 

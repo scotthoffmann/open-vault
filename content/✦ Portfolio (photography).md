@@ -3,7 +3,7 @@ title: ✦ Portfolio (photography)
 draft: "false"
 ---
 
-### My roots are in performance photography, particularly documenting nightlife in Brooklyn, NY. I'm available for events of all kinds, media kits, BTS—whatever you've got going on. Drop a line: contact@scotthoffmann.com.
+My roots are in performance photography, particularly documenting nightlife in Brooklyn, NY. I'm available for events of all kinds, media kits, BTS—whatever you've got going on. Drop a line: contact@scotthoffmann.com.
 
 ---
 
