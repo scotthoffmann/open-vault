@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hoffmann;Scott;;;
+FN:Scott Hoffmann
+TEL;TYPE=cell:2032140947
+EMAIL:contact@scotthoffmann.com
+ADR;TYPE=home:;;New York;NY;;USA
+URL:https://scotthoffmann.com
+PHOTO;VALUE=URI:https://www.dropbox.com/scl/fi/8q3jn1lsvnf26ttv8vxdv/hoffmann-scott.jpg?rlkey=lgzhx8zjzvsklwlq8alvijebv&raw=1
+END:VCARD
